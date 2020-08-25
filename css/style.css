@@ -16,16 +16,23 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /* VARIÁVEIS */
 :root{
+
+
   
 }
 
 /*BODY*/
 	body{
 
+		background-color: black;
+
 	}
 
 /*TOPO*/
 	header.topo{
+
+		
+		
 		
 	}
 
@@ -34,6 +41,61 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /*PÁGINA INICIAL*/
 	div.pg-home{
+
+		margin: auto;
+
+		
 		
 	}
+
+.topo{
+	/* margin-top: 10px auto; */
+	
+}
+section{
+
+	text-align: center;
+
+}
+h2{
+	color: white;
+	font-size: 40px;
+}
+.usuarios {
+	
+    list-style-type: none;
+    width: 858px;
+    display: inline-block;
+	margin-top: 10px;	
+	line-height: 10px;
+	column-count: 4;
+	text-align: center;	
+	/* background-color: tomato; */
+	column-gap: 2px;
+	height: auto;
+	
+
+}
+
+figure{
+
+	padding-top: 10px;
+	width: 186px;
+	
+}
+figure figcaption{
+
+	text-align: center;
+	color: rgb(110, 109, 109);
+	margin-top: 10px;
+	font: bold;
+
+	
+}
+figure img{
+
+	width: 180px;
+	
+}
+
 
