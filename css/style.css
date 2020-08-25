@@ -14,6 +14,11 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 **** PÁGINA INICIAL
 */
 
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
 /* VARIÁVEIS */
 :root{
 
@@ -24,10 +29,9 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 /*BODY*/
 	body{
 
-		background-color: black;
-
+		background-color: #221F20;
+		font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
 	}
-
 /*TOPO*/
 	header.topo{
 
@@ -61,6 +65,9 @@ h2{
 	color: white;
 	font-size: 40px;
 }
+h3{
+	color:#221F20;
+}
 .usuarios {
 	
     list-style-type: none;
@@ -70,9 +77,6 @@ h2{
 	line-height: 10px;
 	column-count: 4;
 	text-align: center;	
-	/* background-color: tomato; */
-	column-gap: 2px;
-	height: auto;
 	
 
 }
@@ -86,16 +90,26 @@ figure{
 figure figcaption{
 
 	text-align: center;
-	color: rgb(110, 109, 109);
-	margin-top: 10px;
-	font: bold;
+	padding-top: 15px;
+	color: rgb(110, 109, 109);	
+	font-weight: bold;
 
 	
 }
 figure img{
 
-	width: 180px;
+	width: 186px;
 	
+}
+footer button{
+
+	background-color: #221F20;
+	margin-top: 25px;
+	border: solid 1px white;
+	padding: 3px 15px 3px 15px;
+	color:  rgb(110, 109, 109);
+	text-transform: uppercase;
+
 }
 
 
