@@ -100,24 +100,33 @@ figure figcaption{
 /* tamanho dos boxes */
 ul li{
 	width: 186px;
-
 }
 figure img{
-
-	width: 186px;
-	
+	width: 186px;	
 }
 footer button{
-
 	background-color: #221F20;
 	margin-top: 25px;
 	border: solid 1px white;
 	padding: 3px 15px 3px 15px;
 	color:  rgb(110, 109, 109);
 	text-transform: uppercase;
-
 }
 
+@media ( width-max: 780){
+	.usuarios {	
+		list-style-type: none;
+		width: 780px;
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;		
+		margin-top: 10px;	
+		line-height: 10px;
+		column-count: 4;
+		text-align: center;			
+	}
+}
 
 @media ( width-max: 680){
 
@@ -134,17 +143,10 @@ footer button{
 		column-count: 4;
 		text-align: center;			
 	}
-	
 
-	
 }
-
-
 @media (max-width: 580px){
-
-
-	.usuarios {
-	
+	.usuarios {	
 		list-style-type: none;
 		width: 580px;
 		display:flex;
@@ -156,14 +158,9 @@ footer button{
 		column-count: 4;
 		text-align: center;			
 	}
-	
 }
-
-
 @media (max-width: 480px){
-
-	.usuarios {
-	
+	.usuarios {	
 		list-style-type: none;
 		width: 480px;
 		display:flex;
@@ -174,22 +171,14 @@ footer button{
 		column-count: 4;
 		text-align: center;			
 	}
-
-	
 }
-
-
-
 @media(max-width: 380px){
-
-	.usuarios {
-	
+	.usuarios {	
 		list-style-type: none;
 		width: 380px;
 		display:flex;
 		flex-direction: column;
-		align-items: center;
-		
+		align-items: center;		
 		margin-top: 10px;	
 		line-height: 10px;
 		column-count: 4;
