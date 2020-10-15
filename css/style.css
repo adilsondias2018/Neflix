@@ -96,6 +96,12 @@ figure figcaption{
 
 	
 }
+
+/* tamanho dos boxes */
+ul li{
+	width: 186px;
+
+}
 figure img{
 
 	width: 186px;
@@ -110,6 +116,86 @@ footer button{
 	color:  rgb(110, 109, 109);
 	text-transform: uppercase;
 
+}
+
+
+@media ( width-max: 680){
+
+	.usuarios {
+	
+		list-style-type: none;
+		width: 680px;
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;		
+		margin-top: 10px;	
+		line-height: 10px;
+		column-count: 4;
+		text-align: center;			
+	}
+	
+
+	
+}
+
+
+@media (max-width: 580px){
+
+
+	.usuarios {
+	
+		list-style-type: none;
+		width: 580px;
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;		
+		margin-top: 10px;	
+		line-height: 10px;
+		column-count: 4;
+		text-align: center;			
+	}
+	
+}
+
+
+@media (max-width: 480px){
+
+	.usuarios {
+	
+		list-style-type: none;
+		width: 480px;
+		display:flex;
+		flex-direction: column;
+		align-items: center;		
+		margin-top: 10px;	
+		line-height: 10px;
+		column-count: 4;
+		text-align: center;			
+	}
+
+	
+}
+
+
+
+@media(max-width: 380px){
+
+	.usuarios {
+	
+		list-style-type: none;
+		width: 380px;
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		
+		margin-top: 10px;	
+		line-height: 10px;
+		column-count: 4;
+		text-align: center;	
+		
+	}
 }
 
 
